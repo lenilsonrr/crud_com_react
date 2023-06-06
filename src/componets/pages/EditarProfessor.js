@@ -31,9 +31,9 @@ function EditarProfessor() {
 
     
     function editar(professor) {
-        const { name } = professor;
-        // Verificar se o nome já existe
-        fetch(`http://localhost:5000/professores?name=${name}`)
+        const { rg } = professor;
+        // Verificar se o rg já existe
+        fetch(`http://localhost:5000/professores?name=${rg}`)
             .then((response) => response.json())
             .then((data) => {
                 if (data.length > 0) {
@@ -63,8 +63,8 @@ function EditarProfessor() {
         <div className={styles.container}>
 
             <h1>Nome e Registro atual</h1>
-            <h3>Nome: {professor.name}</h3>
-            <h3>Nº Registro: {professor.rg}</h3>
+            <h3>Nome: <span>{professor.name}</span></h3>
+            <h3>Nº Registro: <span>{professor.rg}</span></h3>
             <ProfessorForm
                 handleSubmit={editar}
                 btnText="Salvar"

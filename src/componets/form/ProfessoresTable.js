@@ -1,7 +1,7 @@
 import styles from './ProfessoresTable.module.css';
 import { Button, Table } from "react-bootstrap";
 
-function PessoasTable({ list, handleDeletar }) {
+function ProfessoresTable({ list, handleDeletar }) {
 
     return (
         <div className={styles.respons}>
@@ -37,4 +37,4 @@ function PessoasTable({ list, handleDeletar }) {
     );
 }
 
-export default PessoasTable;
+export default ProfessoresTable;
