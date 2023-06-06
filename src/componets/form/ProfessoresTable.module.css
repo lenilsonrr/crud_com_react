@@ -1,0 +1,18 @@
+.respons {
+  width: 100%;
+}
+
+.respons th {
+  text-align: center;
+}
+
+.id,
+.btn,
+.rg{
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  flex-direction: row;
+}

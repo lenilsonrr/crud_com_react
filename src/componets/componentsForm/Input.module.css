@@ -1,0 +1,20 @@
+.box_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.box_input label{
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.box_input input{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+}
+
+.box_input input::placeholder{
+    color: #7b7b7b;
+}

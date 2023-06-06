@@ -1,0 +1,27 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 550px;
+    padding: 7em;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 35px;
+    color: #fff;
+    background-color: #312f2f;
+    padding: 0.3em;
+    text-align: center;
+    margin-bottom: .5em;
+    cursor: default;
+}
+
+.btn {
+    display: flex;
+    height: 37px;
+    margin: -69px 0px 0px 90px;
+}

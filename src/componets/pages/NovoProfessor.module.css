@@ -1,0 +1,24 @@
+.novoprofessor_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 550px;
+    padding: 7em;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.novoprofessor_container h1{
+    color: #fff;
+    background-color: #312f2f;
+    padding:  0.3em;
+    text-align: center;
+    margin-bottom: .5em;
+    cursor: default;
+}
+
+.novoprofessor_container p{
+    color: #7b7b7b;
+}
