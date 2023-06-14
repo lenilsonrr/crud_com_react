@@ -52,7 +52,6 @@ function NovoProfessor() {
   return (
     <div className={styles.novoprofessor_container}>
       <h1>Criar Professor</h1>
-      <p>Crie professor e depois e envie para o banco de dados</p>
       <ProfessorForm handleSubmit={creatPost} btnText="Cadastrar" />
     </div>
   );

@@ -1,5 +1,5 @@
 import styles from './ProfessoresTable.module.css';
-import { Button, Table } from "react-bootstrap";
+import {Button, Table } from "react-bootstrap";
 
 function ProfessoresTable({ list, handleDeletar }) {
 

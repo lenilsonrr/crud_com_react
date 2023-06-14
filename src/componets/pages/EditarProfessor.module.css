@@ -25,6 +25,11 @@
     font-size: 20px;
 }
 
+.container p{
+    cursor: default;
+    color: rgb(95, 91, 91);
+}
+
 .container span{
     font-size: 20px;
     font-weight: bold;
